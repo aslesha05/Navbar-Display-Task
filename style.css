@@ -1,0 +1,42 @@
+body, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #352db0; 
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  font-size: 15px;
+}
+
+.nav-links li {
+  margin: 17px;
+  font-size: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+.login {
+  text-decoration: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
